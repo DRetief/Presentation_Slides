@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:background="#ffaaff84"
+        android:id="@+id/slide_5_text_heading"
+        android:gravity="center" />
+
+    <FrameLayout
+        android:id="@+id/slide_5_video_surface_container"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:background="#ff97deff"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp">
+
+        <SurfaceView
+            android:id="@+id/slide_5_video_surface"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp">
+
+            <ImageView
+            android:id="@+id/slide_5_image_top_left"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:background="#ffddc5ff"
+            android:gravity="center"
+            android:layout_margin="5dp" />
+            <!--android:padding="75dip"-->
+
+            <ImageView
+            android:id="@+id/slide_5_image_top_right"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:background="#fa6fff8d"
+            android:gravity="center"
+            android:layout_margin="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <ImageView
+                android:id="@+id/slide_5_image_bottom_left"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:background="#fa8fa5ff"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp" />
+
+            <ImageView
+                android:id="@+id/slide_5_image_bottom_right"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:background="#faff48ae"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <!--<TableLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="300dp">-->
+        <!--android:shrinkColumns="*"-->
+        <!--android:stretchColumns="*">-->
+
+        <!--<TableRow-->
+            <!--android:layout_height="150dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:gravity="center_horizontal">-->
+
+            <!--android:id="@+id/TextView04" android:text="Row 2 column 1"-->
+            <!--android:layout_weight="1" android:background="#dcdcdc"-->
+            <!--android:textColor="#000000"-->
+            <!--android:padding="20dip" android:gravity="center"/>-->
+            <!--<ImageView-->
+                <!--android:id="@+id/slide_5_image_top_left"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="#ffddc5ff"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_margin="5dp" />-->
+            <!--android:padding="75dip"-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/slide_5_image_top_right"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="#fa72ffb2"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_margin="5dp" />-->
+
+            <!--android:padding="75dip"-->
+        <!--</TableRow>-->
+
+        <!--<TableRow-->
+            <!--android:id="@+id/tableRow1"-->
+            <!--android:layout_height="75dp"-->
+            <!--android:layout_width="match_parent">-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/slide_5_image_bottom_left"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="#fa8fa5ff"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:layout_marginRight="5dp"-->
+                <!--android:layout_marginBottom="10dp" />-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/slide_5_image_bottom_right"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="#faff48ae"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:layout_marginRight="5dp"-->
+                <!--android:layout_marginBottom="10dp" />-->
+        <!--</TableRow>-->
+    <!--</TableLayout>-->
+
+
+</LinearLayout>
